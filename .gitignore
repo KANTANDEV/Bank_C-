@@ -1,0 +1,57 @@
+# Dossiers build
+bin/
+obj/
+Debug/
+Release/
+
+# Fichiers Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Fichiers de build 
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Fichiers temporaires et caches
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+
+# Packages NuGet
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Fichiers de configuration spécifiques à l'environnement  
+appsettings.Development.json
+appsettings.Production.json
+*.env
+
+# Fichiers de System
+.DS_Store
+Thumbs.db
